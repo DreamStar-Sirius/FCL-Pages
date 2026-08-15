@@ -581,4 +581,8 @@ html[data-theme="light"] .footer-copy { color: #6b7280 !important; }
 html[data-theme="light"] .faq-item summary { color: #1a1a1a !important; }
 html[data-theme="light"] .faq-item summary i { color: #374151 !important; }
 html[data-theme="light"] .update-log summary { color: #1a1a1a !important; }
+/* 贡献者致谢行在浅色模式下原为深灰（#e6e8ec），浅底上几乎不可见，改为可读的中深灰；
+   同时显式钉死深色值，避免主题切换时序导致的残留 */
+html[data-theme="light"] .dev-thanks { color: #374151 !important; }
+html[data-theme="dark"] .dev-thanks { color: #e6e8ec !important; }
 </style>

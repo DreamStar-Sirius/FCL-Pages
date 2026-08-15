@@ -78,7 +78,7 @@ onMounted(() => {
 .plugin-market { max-width: 1200px; margin: 0 auto; padding: 4rem 1.5rem 5rem; color: #E6E8EC; }
 .pm-hero { text-align: center; margin-bottom: 3rem; }
 .pm-eyebrow { display: inline-flex; align-items: center; gap: .5rem; font-size: .8rem; font-weight: 600; letter-spacing: .08em; color: #7c9cff; background: rgba(52, 94, 239, .12); border: 1px solid rgba(52, 94, 239, .3); padding: .4rem .9rem; border-radius: 9999px; }
-.pm-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin: 1rem 0 .5rem; background: linear-gradient(135deg, #fff 30%, #9db4ff 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.pm-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin: 1rem 0 .5rem; color: #fff; }
 .pm-sub { color: #9ca3af; font-size: 1.05rem; max-width: 40rem; margin: 0 auto; }
 .pm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
 .pm-card { background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .08); border-radius: 1rem; padding: 1.5rem; transition: all .2s; }
@@ -111,7 +111,7 @@ onMounted(() => {
 html[data-theme="light"] .plugin-market { color: #1a1a1a !important; }
 /* 顶部 eyebrow 与标题保持深蓝（保留渐变） */
 html[data-theme="light"] .pm-eyebrow { color: #274bbd !important; border-color: rgba(52,94,239,.4) !important; background: rgba(52,94,239,.1) !important; }
-html[data-theme="light"] .pm-title { background: linear-gradient(135deg, #274bbd 25%, #345eef 100%) !important; -webkit-background-clip: text; background-clip: text; color: transparent !important; }
+html[data-theme="light"] .pm-title { color: #1a1a1a !important; }
 /* 其余文字统一为黑色（按钮内的文字除外） */
 html[data-theme="light"] .pm-sub,
 html[data-theme="light"] .pm-desc,
