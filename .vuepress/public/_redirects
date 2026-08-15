@@ -1,0 +1,15 @@
+/changelog /changelog.html 200!
+/dashboard /dashboard.html 200!
+/docs /docs/index.html 200!
+/docs/configuration /docs/configuration/index.html 200!
+/docs/faq /docs/faq/index.html 200!
+/docs/features /docs/features/index.html 200!
+/docs/installation /docs/installation/index.html 200!
+/docs/quickstart /docs/quickstart/index.html 200!
+/docs/support /docs/support/index.html 200!
+/feedback /feedback.html 200!
+/login /login.html 200!
+/maintain /maintain.html 200!
+/plugins /plugins.html 200!
+/register /register.html 200!
+/terms /terms.html 200!
